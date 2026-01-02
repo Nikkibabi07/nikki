@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Live Music Concert</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: "Segoe UI", Arial, sans-serif;
+            background-color: #0f0f1a;
+            color: #ffffff;
+        }
+
+        /* HERO SECTION */
+        .hero {
+            height: 90vh;
+            background-image: url("https://images.unsplash.com/photo-1507874457470-272b3c8d8ee2");
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 4rem;
+            background: rgba(0, 0, 0, 0.6);
+            padding: 25px 40px;
+            border-radius: 12px;
+        }
+
+        /* SECTION */
+        .section {
+            max-width: 1100px;
+            margin: 60px auto;
+            padding: 20px;
+        }
+
+        .section h2 {
+            color: #ff4c60;
+            margin-bottom: 20px;
+        }
+
+        /* CARDS */
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+        }
+
+        .card {
+            background: #1b1b2f;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+        }
+
+        .card img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+
+        .card-content {
+            padding: 20px;
+        }
+
+        /* BUTTON */
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 25px;
+            background: #ff4c60;
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: bold;
+        }
+
+        .btn:hover {
+            background: #ff2f4b;
+        }
+
+        /* FOOTER */
+        footer {
+            background: #080814;
+            text-align: center;
+            padding: 20px;
+            margin-top: 60px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- HERO -->
+<div class="hero">
+    <h1>🎶 Live Music Concert 2026 🎶</h1>
+</div>
+
+<!-- ABOUT -->
+<div class="section">
+    <h2>About the Concert</h2>
+    <p>
+        Join us for an unforgettable night of live music, energy, and rhythm.
+        Experience top artists performing live on stage with stunning visuals and sound.
+    </p>
+    <a href="#" class="btn">Book Tickets</a>
+</div>
+
+<!-- ARTISTS -->
+<div class="section">
+    <h2>Featured Artists</h2>
+    <div class="cards">
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4">
+            <div class="card-content">
+                <h3>DJ Nova</h3>
+                <p>Electronic & EDM Specialist</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="C:\Users\ADMIN\Desktop\MY WEBPAGE\rockers.jpg">
+            <div class="card-content">
+                <h3>The Rockers</h3>
+                <p>Live Rock Band</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1506157786151-b8491531f063">
+            <div class="card-content">
+                <h3>Melody Star</h3>
+                <p>Pop & Acoustic Performer</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- DETAILS -->
+<div class="section">
+    <h2>Event Details</h2>
+    <p>📍 Location: City Arena</p>
+    <p>📅 Date: 15 March 2026</p>
+    <p>⏰ Time: 6:00 PM onwards</p>
+</div>
+
+<footer>
+    <p>© 2026 | Live Music Concert</p>
+</footer>
+
+</body>
+</html>
+
